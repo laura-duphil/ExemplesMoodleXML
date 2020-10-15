@@ -1,11 +1,8 @@
 <?xml version="1.0"?>
-<<<<<<< HEAD
-<question type="multichoicce">
-=======
-<question type="multichoicce">
->>>>>>> af8b19f135adfbb75696489071c9b30912a5719a
+<quiz>
+	<question type="truefalse">
 	<name>
-		<text>Demo question à choix multiples</text>
+		<text>Demo question true false</text>
 	</name>
 	<questiontext format="html">
 		<text>Quel est la bonne réponse ?</text>
@@ -13,23 +10,19 @@
 	<penalty>1</penalty>
 	<defaultgrade>1</defaultgrade>
 	<answer fraction="100">
-		<text>Ceci est la bonne réponse</text>
+		<text>True</text>
 		<feedback>
 			<text>Bravo !</text>
 		</feedback>
 	</answer>
 	<answer fraction="0">
-		<text>Une mauvaise réponse</text>
-		<feedback>
-			<text>Ooops!</text>
-		</feedback>
-	</answer>
-	<answer fraction="0">
-		<text>Une autre mauvaise réponse</text>
+		<text>False</text>
 		<feedback>
 			<text>Ooops!</text>
 		</feedback>
 	</answer>
 	<shuffleanswers>1</shuffleanswers>
 	<single>true</single>
-</question>
+	</question>
+	 
+</quiz>
